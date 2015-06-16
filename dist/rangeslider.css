@@ -36,7 +36,6 @@
   height: 32px;
   position: absolute;
   top: -5px;
-  background-size: 100%;
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -52,14 +51,12 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-size: 100%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 .rangeslider__handle:active {
   background: #F1F1F1;
-  background-size: 100%;
 }
 
 input[type="range"]:focus + .rangeslider .rangeslider__handle {

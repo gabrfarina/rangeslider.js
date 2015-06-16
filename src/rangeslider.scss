@@ -23,7 +23,7 @@ $rangeslider__handle:   ".rangeslider__handle";
 }
 
 #{$rangeslider__fill} {
-    background: #00ff00;
+    background: #00B2FF;
     position: absolute;
     top: 0;
 }
@@ -33,13 +33,12 @@ $rangeslider__handle:   ".rangeslider__handle";
     border: 1px solid #ccc;
     cursor: pointer;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     position: absolute;
-    top: -10px;
-    @include background-image(linear-gradient(rgba(white, 0), rgba(black, .10)));
+    top: -5px;
     @include box-shadow(0 0 8px rgba(black, .3));
-    @include border-radius(50%);
+    //@include border-radius(50%);
 
     &:after {
         content: "";
@@ -52,12 +51,11 @@ $rangeslider__handle:   ".rangeslider__handle";
         right: 0;
         bottom: 0;
         left: 0;
-        @include background-image(linear-gradient(rgba(black, .13), rgba(white, 0)));
         @include border-radius(50%);
     }
 
     &:active {
-        @include background-image(linear-gradient(rgba(black, .10), rgba(black, .12)));
+        background: #F1F1F1;
     }
 }
 
